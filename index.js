@@ -44,8 +44,5 @@ const showInfo = (content) => {
 };
 
 export default showInfo;
- const colorString = Object.entries(colorCount)
-    .map(([color, count]) => `${color}: ${count}`)
-    .join(', ');
-  console.log(`Все цвета: ${colorString}`);
-};
+
+
